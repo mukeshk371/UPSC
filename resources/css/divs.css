@@ -1,31 +1,38 @@
-.information{
-	width: 100%;
-	overflow:hidden;
-	position: relative;
+.box1 {
+	float: left;
+	width: 50%;
 }
 
+
+.box2 {
+	float: right;
+	width: 50%;
+}
+
+
 .about-us {
-	width: 25%;
-	background-color: yellow;
 	float: left;
+	width: 25%;
+	background-color: green;
 }
 
 
 .examination {
-	width: 25%;
-	background-color: red;
 	float: left;
+	width: 25%;
+	background-color: pink;
 }
 
 
 .recuritment {
-	width: 25%;
-	background-color: pink;
 	float: left;
-}
-
-.buttons {
 	width: 25%;
 	background-color: aqua;
-	float: left; 
+}
+
+
+.buttons {
+	float: right;
+	width: 25%;
+	background-color: yellow;
 }

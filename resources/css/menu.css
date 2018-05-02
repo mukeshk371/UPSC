@@ -9,22 +9,32 @@
 
 .navbar a {
     float: left;
-    font-size: 14px;
+    font-size: 19px;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-right: 1px solid #3C6A95;
 }
 
 .dropdown {
     float: left;
     overflow: hidden;
+    border-right: 1px solid #3C6A95;
 }
+
+
 
 .dropbtn img {
     width: 10px;
     height: 10px;
 }
+
+
+.dropbtn {
+    font-size: 19px;
+}
+
 
 .dropdown .dropbtn {
     font-size: 14px;    
@@ -65,5 +75,20 @@
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+
+
+.bottom-menu {
+    background-color: #185E95;
+    width: 100%;
+}
+
+
+.bottom-menu a {
+    color: white;
+    text-decoration: none;
+    vertical-align: middle;
+    margin: 4px;
 }
 

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Welcome to UPSC | UPSC</title>
+		<link rel="stylesheet" type="text/css" href="resources/css/navigations.css">
+		<link rel="stylesheet" type="text/css" href="resources/css/menu.css">
+		<link rel="stylesheet" type="text/css" href="resources/css/slide-show.css">
+    </head>
+
+
+    <body>
+
+    	<div class="top-navigation">
+    		<div class="left-navigation">
+    			<a href="#">SiteMap</a> |
+    			<a href="#">Skip To Main Content</a>
+    		</div>
+
+    		<div class="right-navigation">
+    			<a><input type="text" placeholder="Search.."></a>
+    		</div>
+    	</div>
+    	<br/>
+
+    	<div class="middle-navigation">
+    		<div class="left-logo">
+    			<img src="resources/images/logo.png">
+    			<a href="#"><h1>संघ लोक सेवा आयोग</h1><h2>UNION PUBLIC SERVICE COMMISSION</h2></a>
+    			<img src="resources/images/digital-india.png">
+    		</div>
+    	</div>
+    	<br/>
+
+<div class="navbar" id="myTopnav">
+  <a href= "index.html"><img src="resources/images/home.png" style="width: 15px; height: 15px"></a>
+
+    <div class="dropdown">
+    	<button class="dropbtn">About Us 
+    		<img src="resources/images/dropdown.png">
+        </button>
+        <div class="dropdown-content">
+        	<a href="#">Historical Perspective</a>
+        	<a href="#">Constitutional Provisions</a>
+        	<a href="#">The Commission</a>
+        	<a href="#">Functions</a>
+        	<a href="#">Secretariat</a>
+        	<a href="#">Divisions</a>
+        	<a href="#">Citizen's Charter</a>
+        	<a href="#">Directory</a>
+        	<a href="#">Museum</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+    	<button class="dropbtn">Examinations
+    		<img src="resources/images/dropdown.png">
+    	</button>
+    	<div class="dropdown-content">
+    		<a href="#">Calender</a>
+    		<a href="#">Active Examinations</a>
+    		<a href="#">Forthcoming Examinations</a>
+    		<a href="#">Previous Question Papers</a>
+    		<a href="#">Cut-off Marks</a>
+    		<a href="#">Answer Keys</a>
+    		<a href="#">Marks Information</a>
+    		<a href="#">Public Disclosure of Scores Through Portal</a>
+    		<a href="#">Model Question Cum Answer Booklet (QCAB)</a>
+    		<a href="#">Revised Syllabus and Scheme</a>
+    		<a href="#">Time frame for Representation</a>
+    	</div>
+    </div>
+
+    <div class="dropdown">
+    	<button class="dropbtn">Recuritment
+    		<img src="resources/images/dropdown.png">
+    	</button>
+    	<div class="dropdown-content">
+    		<a href="#">Advertisements</a>
+    		<a href="#">Online Recruitment Application (ORA)</a>
+    		<a href="#">Status of Recruitment Cases (Advertisement-wise)</a>
+    		<a href="#">Forms for Certificates</a>
+    		<a href="#">Recruitment Tests</a>
+    		<a href="#">Recruitment Requisition</a>
+    	</div>
+    </div>
+
+    <div class="dropdown">
+    	<button class="dropbtn">Government Users
+    		<img src="resources/images/dropdown.png">
+    	</button>
+    	<div class="dropdown-content">
+    		<a href="#">Central Government</a>
+    		<a href="#">Union Territories Government</a>
+    		<a href="#">State Government</a>
+    		<a href="#">Others</a>
+    	</div>
+    </div>
+
+    <a href= "index.html">Forms & Downloads</a>
+    <a href= "index.html">FAQs</a>
+    <a href= "index.html">RTI</a>
+  
+</div>
+
+    <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="resources/images/slide-pic-1.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="resources/images/slide-pic-2.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="resources/images/slide-pic-3.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="resources/images/slide-pic-4.jpg" style="width:100%">
+</div>
+
+</div>
+
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000);
+}
+</script>
+
+
+    </body>
+
+</html>
+
+

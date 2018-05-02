@@ -5,6 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="resources/css/navigations.css">
 		<link rel="stylesheet" type="text/css" href="resources/css/menu.css">
 		<link rel="stylesheet" type="text/css" href="resources/css/slide-show.css">
+		<link rel="stylesheet" type="text/css" href="resources/css/divs.css">
     </head>
 
 
@@ -102,49 +103,48 @@
   
 </div>
 
-    <div class="slideshow-container">
-
-<div class="mySlides fade">
-  <img src="resources/images/slide-pic-1.jpg" style="width:100%">
+<div id="slideshow">
+  <div class="slide-wrapper">
+    <div class="slide"><img src="resources/images/slide-pic-1.jpg" ></div>
+    <div class="slide"><img src="resources/images/slide-pic-2.jpg" ></div>
+    <div class="slide"><img src="resources/images/slide-pic-3.jpg" ></div>
+    <div class="slide"><img src="resources/images/slide-pic-4.jpg" ></div>
+    <div class="slide"><img src="resources/images/slide-pic-5.jpg" ></div>
+  </div>
 </div>
 
-<div class="mySlides fade">
-  <img src="resources/images/slide-pic-2.jpg" style="width:100%">
+<div class="notice">
+	<div class="what-new">
+		<h1>What's New</h1>
+		<hr>
+		<marquee direction = "up">
+			<p>E-Appointment under Single Window System</p>
+			<p>Interview Details: Recruitment to 06 Posts of Deputy Central Intelligence Officer - Technical, Intelligence Bureau</p>
+			<p>Final Result: 01 Post of Assistant Executive Engineer (Mechanical)</p>
+			<p>Exam Notification: Combined Medical Services Examination, 2018</p>
+			<p>Fictitious Fee: Combined Geo-Scientist and Geologist Examination, 2018</p>
+			<p>Final Result: Civil Services Examination, 2017</p>
+			<p>Advertisement No.08 - 1017</p>
+			<p>Fictitious Fee: Indian Economic Service and Indian Statistical Service Examination, 2018</p>
+			<p>Examination Time Table: Combined Geo-Scientist and Geologist Examination, 2018</p>
+		</marquee>
+	</div>
 </div>
 
-<div class="mySlides fade">
-  <img src="resources/images/slide-pic-3.jpg" style="width:100%">
+<div class="information">
+	<div class="about-us">
+		<h1>About Us</h1>
+	</div>
+	<div class="examination">
+		<h1>Examination</h1>
+	</div>
+	<div class="recuritment">
+		<h1>Recuritments</h1>
+	</div>
+	<div class="buttons">
+		<h1>Buttons</h1>
+	</div>
 </div>
-
-<div class="mySlides fade">
-  <img src="resources/images/slide-pic-4.jpg" style="width:100%">
-</div>
-
-</div>
-
-
-
-<script>
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";  
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 2000);
-}
-</script>
 
 
     </body>

@@ -91,12 +91,6 @@
 
 
 
-.navbar .icon {
-  display: none;
-}
-
-
-
   .navbar.responsive .dropdown {float: none;}
   .navbar.responsive .dropdown-content {position: relative;}
   .navbar.responsive .dropdown .dropbtn {
@@ -105,4 +99,9 @@
     text-align: left;
     font-size: 12px;
   }
+}
+
+
+.navbar .icon {
+  display: none;
 }

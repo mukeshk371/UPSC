@@ -4,10 +4,6 @@
     background-color: #154979;
     font-family: Sans-serif;
     padding: 2px;
-    position: relative; 
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
     
 }
 

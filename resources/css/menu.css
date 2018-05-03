@@ -79,16 +79,28 @@
 
 
 
-.bottom-menu {
+
+.bottom-navbar {
+    overflow: hidden;
     background-color: #185E95;
-    width: 100%;
+    font-family: Sans-serif;
+    
+    
 }
 
-
-.bottom-menu a {
+.bottom-navbar a {
+    float: left;
+    font-size: 17px;
     color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    vertical-align: middle;
-    margin: 4px;
 }
+
+
+.bottom-navbar a:hover {
+    background-color: #154979;
+}
+
+
 

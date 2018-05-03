@@ -25,6 +25,7 @@ body {
 
 .left-navigation a {
 	font-size: 15px;
+	 padding: 14px 16px;
 	text-decoration: none;
 	margin: 20px;
 	color: black;
@@ -66,7 +67,6 @@ body {
 
 .left-logo img {
 	width: 10%;
-	float: left;
 }
 
 .left-logo a:hover {

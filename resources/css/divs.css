@@ -1,12 +1,16 @@
-.box1 {
+.container {
+	display: table;
+	width: 100%;
+}
+
+.box {
 	float: left;
-	width: 50%;
+	display: table-row;
 }
 
 
-.box2 {
-	float: right;
-	width: 50%;
+.about-us, .examination, .recuritment, .buttons {
+	display: table-cell;
 }
 
 
@@ -32,7 +36,7 @@
 
 
 .buttons {
-	float: right;
+	float: left;
 	width: 25%;
 	background-color: yellow;
 }

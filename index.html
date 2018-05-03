@@ -34,7 +34,8 @@
     	<br/>
 
 <div class="navbar" id="myTopnav">
-  <a href= "index.html"><img src="resources/images/home.png" style="width: 15px; height: 15px"></a>
+	<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    <a href= "index.html"><img src="resources/images/home.png" style="width: 15px; height: 15px"></a>
 
     <div class="dropdown">
     	<button class="dropbtn" style="font-size: 19px">About Us 
@@ -161,6 +162,18 @@
 </div>
 
 
+
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "navbar") {
+        x.className += " responsive";
+    } else {
+        x.className = "navbar";
+    }
+}
+</script>
     </body>
 </html>
 

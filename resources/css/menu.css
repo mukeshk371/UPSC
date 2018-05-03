@@ -4,8 +4,14 @@
     background-color: #154979;
     font-family: Sans-serif;
     padding: 2px;
+    position: relative; 
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
     
 }
+
+
 
 .navbar a {
     float: left;
@@ -48,7 +54,7 @@
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #0000FF;
+    background-color: #1B81DE;
 }
 
 .dropdown-content {
@@ -70,7 +76,7 @@
 }
 
 .dropdown-content a:hover {
-    background-color: #0000FF;
+    background-color: #1B81DE;
 }
 
 .dropdown:hover .dropdown-content {

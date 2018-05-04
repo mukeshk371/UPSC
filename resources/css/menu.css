@@ -64,6 +64,7 @@
 
 .dropdown-content a {
     float: none;
+    font-size: 14px;
     color: white;
     padding: 12px 16px;
     text-decoration: none;
@@ -88,10 +89,9 @@
     font-family: Sans-serif;
     width: 100%;
     top: -510px;
-  position: relative;
-    
-    
+    position: relative;
 }
+
 
 .bottom-navbar a {
     float: left;

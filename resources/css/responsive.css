@@ -1,6 +1,6 @@
 @media only screen and (max-width:620px) {
 
-	.top-navigation, .left-navigation, .right-navigation, .middle-navigation, .notice, .bottom-navbar {
+	.top-navigation, .left-navigation, .right-navigation, .middle-navigation, .notice {
 		float: center;
 		width: 100%;
 		text-align: center;
@@ -23,7 +23,7 @@
 	}
 
 
-	.navbar a, .dropdown, button {
+	.navbar a, .dropdown {
 		text-align: left;
 		width: 100%;
 	}
@@ -56,6 +56,8 @@
 
 
   .container, .bottom-navbar {
+    width: 100%;
+    float: center;
     top: -1px;
   }
 }

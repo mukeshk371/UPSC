@@ -1,42 +1,143 @@
 .container {
-	display: table;
+	float: left;
 	width: 100%;
 }
 
-.box {
-	float: left;
-	display: table-row;
-}
-
-
-.about-us, .examination, .recuritment, .buttons {
-	display: table-cell;
-}
-
-
-.about-us {
-	float: left;
+.quarter-width {
 	width: 25%;
-	background-color: green;
-}
-
-
-.examination {
 	float: left;
-	width: 25%;
-	background-color: pink;
 }
 
 
-.recuritment {
-	float: left;
-	width: 25%;
-	background-color: aqua;
+.green {
+	background-color: #EEEEEE;
 }
 
 
-.buttons {
-	float: left;
-	width: 25%;
-	background-color: yellow;
+
+.about li {
+	margin: 1em 0;
 }
+
+
+.yellow img {
+	width: 15%;
+	float: right;
+}
+
+
+.pink img {
+	width: 8%;
+	float: right;
+}
+
+.quarter-width h1 {
+	color: #154979;
+	text-align: center;
+}
+
+
+.exam-btn {
+	background-color: #196B91;
+	width: 95%;
+	float: center;
+	margin: 8px;
+	font-size: 27px;
+	color: white;
+	padding: 14px 16px;
+	border: none;
+}
+
+
+.exam-btn img {
+	width: 10%;
+	float: right;
+}
+
+
+.green p {
+	color: #393939;
+	padding: 0px 12px;
+}
+
+
+.green h3 {
+	color: #2A7598;
+	padding: 0px 12px;
+}
+
+
+.green li{
+   list-style:square;
+   color: #393939;
+}
+
+
+
+.nav {
+	list-style: none;
+	width: 80%;
+}
+
+.nav a {
+	text-decoration: none;
+}
+
+
+
+ ul li a span {
+    display: inline-block;
+    width: 80%;
+    vertical-align: middle;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 110%;
+    line-height: 130%;
+    margin: 1em 0;
+}
+
+
+img {
+	vertical-align: middle;
+}
+
+
+.first {
+	background-color: #8C879B;
+}
+
+.cream {
+	background-color: #B3A40D;
+}
+
+.black {
+	background-color: #54505E;
+}
+
+.brown {
+	background-color: #623240;
+}
+
+.light-green {
+	background-color: #2F8E2A;
+}
+
+.sky {
+	background-color: #9D7EC1;
+}
+
+.last {
+	background-color: #045700;
+}
+
+
+.leaf {
+	border-bottom: 2px solid white;
+}
+
+
+.leaf img {
+	margin-left: 10px;
+}
+
+

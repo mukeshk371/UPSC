@@ -1,6 +1,6 @@
 @media only screen and (max-width:620px) {
 
-	.top-navigation, .left-navigation, .right-navigation, .middle-navigation, .notice, .bottom-navbar {
+	.top-navigation, .left-navigation, .right-navigation, .middle-navigation, .notice, .bottom-navbar, .container, .quarter-width {
 		float: center;
 		width: 100%;
 		text-align: center;
@@ -47,6 +47,12 @@
 		float: center;
 		text-align: left;
 	}
+
+
+  .quarter-width {
+    width: 100%;
+    float: center;
+  }
 }
 
 
@@ -97,7 +103,6 @@
     display: block;
     width: 100%;
     text-align: left;
-    font-size: 12px;
   }
 }
 

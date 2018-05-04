@@ -87,6 +87,8 @@
     background-color: #185E95;
     font-family: Sans-serif;
     width: 100%;
+    top: -510px;
+  position: relative;
     
     
 }

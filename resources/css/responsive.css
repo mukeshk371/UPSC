@@ -1,4 +1,4 @@
-@media only screen and (max-width:620px) {
+@media only screen and (max-width:421px) {
 
 	.top-navigation, .left-navigation, .right-navigation, .middle-navigation, .notice {
 		float: center;
@@ -64,7 +64,7 @@
 
 
 
-@media screen and (max-width: 620px) {
+@media only screen and (max-width: 421px) {
   .navbar a {display: none;}
   .dropdown button {display: none;}
   .navbar a.icon {
@@ -73,7 +73,7 @@
   }
 }
 
-@media screen and (max-width: 620px) {
+@media only screen and (max-width: 421px) {
   .navbar.responsive {
     position: relative; 
     position: -webkit-sticky;
@@ -116,4 +116,64 @@
 
 .navbar .icon {
   display: none;
+}
+
+
+
+/* screen size 842 */
+
+@media only screen and (max-width:842px) {
+  .top-navigation, .left-navigation, .right-navigation, .middle-navigation, .navbar, .notice {
+    width: 100%;
+    float: center;
+    text-align: center;
+  }
+
+
+  .left-logo img {
+    float: center;
+    width: 20%;
+  }
+
+
+
+  .left-logo h1, .left-logo h2, .left-logo a {
+    text-align: center;
+    float: center;
+    width: 100%;
+    font-size: 35px;
+  }
+
+
+  .navbar a, .dropdown .dropbtn {
+    font-size: 12px;
+  }
+
+
+  .notice {
+    top: -1px;
+    z-index: -1;
+  }
+
+
+  .container, .bottom-navbar {
+    width: 100%;
+    float: center;
+    top: -1px;
+  }
+
+
+  .quarter-width {
+    width: 50%;
+  }
+
+  .bottom-navbar a {
+    font-size: 12px;
+  }
+
+  .bottom-navbar img {
+    width: 20px;
+    height: 20px;
+  }
+
 }

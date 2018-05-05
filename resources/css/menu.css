@@ -33,13 +33,9 @@
 }
 
 
-.dropbtn {
-    font-size: 19px;
-}
-
 
 .dropdown .dropbtn {
-    font-size: 14px;    
+    font-size: 19px;    
     border: none;
     outline: none;
     color:  white;

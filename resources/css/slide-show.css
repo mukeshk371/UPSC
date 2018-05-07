@@ -64,7 +64,7 @@ body {
   background-color: #2C5479;
   width: 30%;
   float: right;
-  top: -510px;
+  top: -533px;
   position: relative;
   opacity: 0.8;
 }
@@ -77,8 +77,9 @@ body {
   margin: 10px;
 }
 
-p {
+.marquee li {
   color: white;
+  margin: 1em 0;
 }
 
 

@@ -24,6 +24,20 @@ body {
 	padding: 8.5px 0px;
 }
 
+.right-navigation a {
+	padding: 12px;
+}
+
+.right-navigation button {
+	cursor: pointer;
+	color: #717171;
+}
+
+
+.right-navigation button:hover {
+	text-decoration: underline;
+	color: black;
+}
 
 .left-navigation a {
 	font-size: 15px;
@@ -71,4 +85,32 @@ body {
 
 .left-logo a:hover {
     text-decoration: underline;
+}
+
+
+.font {
+	border: 2px solid #F55B5C;
+	background-color: #FBFBFB;
+	font-weight: bold;
+}
+
+
+.high-contrast {
+	border: 2px solid #F55B5C;
+	background-color: #717171;
+	color: #FEFEFE !Important;
+	font-weight: bold;
+}
+
+.hindi-btn {
+	border-style: none;
+	background-color:#FBFBFB; 
+	color: #717171;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#highContrast:hover {
+	background-color: black !Important;
+	color: white !Important;
 }

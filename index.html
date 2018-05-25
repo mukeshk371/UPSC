@@ -8,6 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="resources/css/slide-show.css">
 		<link rel="stylesheet" type="text/css" href="resources/css/divs.css">
 		<link rel="stylesheet" type="text/css" href="resources/css/responsive.css">
+		<script src="resources/js/javascript.js"></script>
     </head>
 
 
@@ -21,8 +22,18 @@
 
     		<div class="right-navigation text">
     			<a>
-    				<input type="text" placeholder="Search..">
-    				<button>Search</button>
+    				<input class="search" type="text" placeholder="Search..">
+    				<button class="search-btn">Search</button>
+    			</a>
+    			<a>
+    				<button class="increase font" onclick="increaseFontSize()">A<sup>+</sup></button>
+    				<button class="reset font" onclick="resetFontSize()">A<sup></sup></button>
+    				<button class="decrease font" onclick="decreaseFontSize()">A<sup>-</sup></button>
+    				<button id="highContrast" class="high-contrast" onclick="highContrast()">A<sup></sup></button>
+    			</a>
+
+    			<a>
+    				<button class="hindi-btn">हिन्दी</button>
     			</a>
     		</div>
     	</div>
